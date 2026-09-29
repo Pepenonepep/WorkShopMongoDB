@@ -7,7 +7,7 @@
 ## 📌 Sobre o Projeto
 Este é um projeto de API RESTful desenvolvido com **Java** e **Spring Boot**, utilizando o banco de dados NoSQL **MongoDB**. 
 
-O projeto foi construído como parte prática das aulas do curso "Java COMPLETO – Programação Orientada a Objetos + Projetos" ministrado pelo professor Nélio Alves. O objetivo principal do workshop é demonstrar a diferença de paradigma entre bancos de dados relacionais e não-relacionais, além de aplicar boas práticas de desenvolvimento backend.
+O projeto foi construído como parte prática das aulas do curso "Java COMPLETO – Programação Orientada a Objetos + Projetos" ministrado pelo professor Nélio Alves. O objetivo principal do workshop é demonstrar a diferença de paradigma entre bancos de dados relacionais e não-relacionais, além de aplicar boas práticas de desenvolvimento backend, focando na estruturação de dados e realização de consultas.
 
 ## 🚀 Tecnologias Utilizadas
 O projeto foi desenvolvido com as seguintes tecnologias:
@@ -19,10 +19,10 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - **Postman** (Para testes da API)
 
 ## ⚙️ Funcionalidades
-A API simula um sistema de rede social simples e possui as seguintes operações:
-- Operações de CRUD (Create, Read, Update, Delete) para entidades de Usuários (`User`).
-- Associação de entidades (Posts e Usuários).
-- Objetos aninhados (Comentários dentro de Posts).
+A API simula um sistema de rede social simples, com foco em operações de leitura e consultas:
+- Retorno de dados de Usuários (`User`) e Posts através de requisições GET (`@GetMapping`).
+- Estruturação de associação entre entidades (Posts e Usuários).
+- Modelagem de objetos aninhados (Comentários dentro de Posts).
 - Consultas simples e avançadas utilizando `@Query` do Spring Data.
 
 ## 🛠️ Como executar o projeto localmente
